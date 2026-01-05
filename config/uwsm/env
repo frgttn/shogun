@@ -1,0 +1,13 @@
+# Changes require a restart to take effect.
+
+# Ensure SHOGUN bins are in the path
+export SHOGUN_PATH=$HOME/.local/share/shogun
+export PATH=$SHOGUN_PATH/bin:$PATH
+
+# Set default terminal and editor
+source ~/.config/uwsm/default
+
+# Activate mise if present on the system
+if command -v mise &>/dev/null; then
+	eval "$(mise activate bash)"
+fi

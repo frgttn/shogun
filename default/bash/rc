@@ -1,0 +1,6 @@
+source ~/.local/share/shogun/default/bash/shell
+source ~/.local/share/shogun/default/bash/aliases
+source ~/.local/share/shogun/default/bash/functions
+source ~/.local/share/shogun/default/bash/init
+source ~/.local/share/shogun/default/bash/envs
+[[ $- == *i* ]] && bind -f ~/.local/share/shogun/default/bash/inputrc
