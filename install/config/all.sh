@@ -1,0 +1,19 @@
+source $SHOGUN_INSTALL/config/config.sh
+source $SHOGUN_INSTALL/config/theme.sh
+source $SHOGUN_INSTALL/config/git.sh
+source $SHOGUN_INSTALL/config/ssh-flakiness.sh
+source $SHOGUN_INSTALL/config/detect-keyboard-layout.sh
+source $SHOGUN_INSTALL/config/mise-work.sh
+source $SHOGUN_INSTALL/config/docker.sh
+source $SHOGUN_INSTALL/config/mimetypes.sh
+source $SHOGUN_INSTALL/config/localdb.sh
+
+source $SHOGUN_INSTALL/config/hardware/network.sh
+source $SHOGUN_INSTALL/config/hardware/set-wireless-regdom.sh
+source $SHOGUN_INSTALL/config/hardware/bluetooth.sh
+source $SHOGUN_INSTALL/config/hardware/printer.sh
+source $SHOGUN_INSTALL/config/hardware/usb-autosuspend.sh
+source $SHOGUN_INSTALL/config/hardware/ignore-power-button.sh
+source $SHOGUN_INSTALL/config/hardware/nvidia.sh
+source $SHOGUN_INSTALL/config/hardware/intel.sh
+source $SHOGUN_INSTALL/config/hardware/fix-amd-audio-input.sh
