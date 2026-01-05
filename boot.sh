@@ -6,6 +6,8 @@ sudo pacman -Syu --noconfirm --needed git
 
 echo -e "\nCloning Shogun..."
 rm -rf ~/.local/share/shogun/
+
+SHOGUN_REPO="frgttn/shogun"
 git clone "https://github.com/${SHOGUN_REPO}.git" ~/.local/share/shogun >/dev/null
 
 # Use custom branch if instructed, otherwise default to master
